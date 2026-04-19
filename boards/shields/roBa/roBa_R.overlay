@@ -57,11 +57,5 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-
-        cpi = <800>;        // 解像度：まずは 800 くらい（600〜1000 の間で好み調整）
-        x-scale = <12>;     // 横方向を少しだけ強めに
-        y-scale = <10>;     // 縦方向もデフォルトより速く
-        // invert-x;        // 必要なら有効化（向きが逆に感じたらコメントアウト外す）
-        // invert-y;        // 同上
     };
 };
