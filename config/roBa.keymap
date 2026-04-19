@@ -86,7 +86,7 @@
 &kp LCTRL         &kp LEFT_SHIFT  &kp LEFT_COMMAND  &lt_to_layer_0 1 LEFT_COMMAND  &lt 2 SPACE  &lt_to_layer_0 3 RIGHT_COMMAND      &kp BACKSPACE  &lt 6 ENTER                             &kp LEFT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_mw>;
         };
 
         Layer1 {
