@@ -120,10 +120,10 @@
 
         Layer3 {
             bindings = <
-&kp ESCAPE        &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                      &trans             &kp CAPS  &kp LS(TAB)     &kp LS(LG(O))   &trans
-&kp LEFT_COMMAND  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp LG(LS(F))            &trans  &trans      &trans                  &trans             &kp TAB   &msc SCRL_UP    &msc SCRL_LEFT  &msc SCRL_RIGHT
-&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans  &trans      &kp LG(LS(N))           &trans             &trans    &msc SCRL_DOWN  &trans          &trans
-&trans            &trans                  &trans          &trans                   &trans  &trans      &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))                                            &trans
+&kp ESCAPE        &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                      &trans             &kp CAPS  &kp LS(TAB)     &kp LS(LG(O))    &trans
+&kp LEFT_COMMAND  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp LG(LS(F))            &trans  &trans      &trans                  &trans             &kp TAB   &msc SCRL_DOWN  &msc SCRL_RIGHT  &msc SCRL_LEFT
+&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans  &trans      &kp LG(LS(N))           &trans             &trans    &msc SCRL_UP    &trans           &trans
+&trans            &trans                  &trans          &trans                   &trans  &trans      &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
